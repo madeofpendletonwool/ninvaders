@@ -1,7 +1,7 @@
-FROM debian:jessie
+FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y \
     ninvaders \
   && rm -rf /var/lib/apt/lists/*
 
-CMD /usr/games/nInvaders
+CMD tail -f /dev/null
