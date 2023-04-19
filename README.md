@@ -2,10 +2,11 @@
 
 Start the game container with 
 ```
-sudo docker-compose up -d
+sudo docker-compose up
 ```
 
-Play an instance of the game with
+Play an instance of the game on the browser
 ```
-sudo docker-compose exec ninvaders /usr/games/nInvaders
+http://localhost:7681
 ```
+PLAYYYYY
